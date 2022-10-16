@@ -1,0 +1,177 @@
+.container {
+    padding: 0 2rem;
+    background: -webkit-linear-gradient(to left, #030024, #1390a0);
+    background: linear-gradient(to left, #030024, #1390a0);
+  
+  }
+  
+  .main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .title a:hover,
+  .title a:focus,
+  .title a:active {
+    text-decoration: underline;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+  }
+  
+  .title,
+  .description {
+    text-align: center;
+  }
+  
+  .description {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  
+  .card {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 300px;
+    background: rgb(255, 255, 255, 0.3);
+  }
+  
+  .card:hover,
+  .card:focus,
+  .card:active {
+    transform: scale(1.1);
+    background-color: #ffffff;
+    color:#030024;
+  }
+  
+  .card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .button{
+    margin: 3px;
+    border: 1px solid #bababa;
+    color: #bababa;
+    border-radius: 5px;
+    background: none;
+  }
+  
+  .button:hover,
+  .button:focus,
+  .button:active{
+    color: #030024;
+    transform: scale(1.1);
+    border: none;
+  }
+  
+  .formulario{
+    margin-top: 25px;
+    padding: 10px;
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(255, 255, 255, 0.3);
+    border-radius: 10px;
+  }
+  
+  .input{
+    background: #ffffff;
+    color: rgb(86, 86, 86);
+    width: 240px;
+    height: 25px;
+    margin: 5px;
+    padding-left: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  
+  }
+  
+  .buttonSave{
+    width: 97%;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 10px;
+    background-color: #030024;
+    border: none;
+    height: 25px;
+    
+  }
+  
+  .containerFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+  
+  }
+  
+  .addBtn {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .backBtn {
+    padding: 4px 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: white solid 1px;
+    border-radius: 8px;
+    position: absolute;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .backBtn:hover,
+  .backBtn:focus {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+   
+  .backBtn:active {
+    transform: scale(0.95);
+  }
